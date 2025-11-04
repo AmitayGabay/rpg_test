@@ -1,5 +1,5 @@
 import random
-from core.Entity import Entity
+from core.entity import Entity
 
 class Player(Entity):
     def __init__(self, name: str):

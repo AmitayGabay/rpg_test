@@ -1,5 +1,5 @@
 from abc import ABC
-from core.Entity import Entity
+from core.entity import Entity
 
 class Monster(Entity, ABC):
     def __init__(self, name: str, hp: int, type: str, speed: int, power: int, armor_rating: int, weapon: str):
